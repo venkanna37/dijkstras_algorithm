@@ -1,0 +1,21 @@
+{
+  "name": "dijkstras_algorithm",
+  "version": "1.0.0",
+  "description": "algorithm using JavaSript and nde modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dijkstras_algorithm"
+  },
+  "keywords": [
+    "geojson",
+    "JavaSript",
+    "turf",
+    "gis"
+  ],
+  "author": "venkanna",
+  "license": "ISC"
+}
