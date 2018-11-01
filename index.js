@@ -25,12 +25,8 @@ for (var i = 0; i < data.features.length; i++) {
 }
 //console.log(seg_coords);
 
-var coords = [];
+var coords = new Set([]);
 for (var i = 0; i < seg_coords.length; i++) {
-  for (var j = 0; j < coords.length; j++) {
-    if (coords[j]!=seg_coords[i]) {
-      coords.push(seg_coords[i]);
-    }
-  }
+  coords.add(seg_coords[i]);
 }
 console.log(coords);
