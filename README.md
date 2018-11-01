@@ -1,7 +1,7 @@
 # Dijkstras Algorithm
 
 Algorithm, to calculate the shortest path/ optimal path from source of vertices.
-this algorithm is developing using JavaScript, node modules and the spatial data format is geojson
+developing this algorithm using JavaScript, node modules and the spatial data format is geojson
 
 ## Step 1
 
@@ -14,16 +14,15 @@ if set1=A, A={set of all vertices}
 
 ## Step 3
 
-Assigning distance value to all vertices
-Value of source vertex is 0
-All other points are INFINITE
+Assigning weights to all vertices
+Assign 0 to source vertex and  
+The value of all other vertices as INFINITE
 
 ## step 4
 
-Creating new set for shortest path / optimal path, to add their weight is less and removing those values from set A
-set2 = B, B={vertices of shortest path}
+Next step is, move on to next vertices which are connected to source vertex and find the minimum path to reach them by added the weights of path followed.
 
 ## step 5
 
-Repeating the same procedure till get the shortest path
+Repeat the step 4 till we reach the end vertex
 and creating geojson file with output vertices.
