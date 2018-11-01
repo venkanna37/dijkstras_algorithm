@@ -3,6 +3,10 @@
 Algorithm, to calculate the shortest path/ optimal path from source of vertices.
 developing this algorithm using JavaScript, node modules and the spatial data format is geojson
 
+<p align="center">
+  <img width="400" height="200" src="/images/algo.png">
+  </p>
+
 ## Step 1
 
 Reading geojson file using fs module
